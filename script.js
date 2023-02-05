@@ -98,7 +98,6 @@ function removeItem(el){
     syncLocalStorage('DELETE', el.previousElementSibling.innerText.trim())
 }
 
-
 // ======== DARK MODE ==============
 function setDarkMode(isDark){
     if(isDark){
