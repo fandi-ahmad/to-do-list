@@ -47,6 +47,7 @@ if(localStorage.getItem('theme') == 'dark')
 // ==============================================
 
 
+
 // == fungsi tombol add(tambah)==================
 function add(){
     // == ambil input text dari id
