@@ -93,7 +93,7 @@ function toggle(el){
 function removeItem(el){
     el.parentElement.remove()
     
-    // == simpan ke local storage
+    // == save to local storage
     syncLocalStorage('DELETE', el.previousElementSibling.innerText.trim())
 }
 
