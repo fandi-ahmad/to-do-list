@@ -20,6 +20,7 @@ if(todoFromLocal = localStorage.getItem(STORAGE_TODO)){
         createList(key, todos[key])
 }
 
+
 function syncLocalStorage(activity, item, status = false) {
     switch(activity) {
         case 'ADD':
