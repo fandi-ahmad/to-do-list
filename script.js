@@ -2,6 +2,7 @@ let todos = {}
 const STORAGE_TODO = "STORAGE_TODO"
 const todoBox = document.getElementById('todo')
 
+
 // ===========================================
 // ========= LOCAL STORAGE ===================
 // ===========================================
